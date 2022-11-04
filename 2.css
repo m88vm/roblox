@@ -1,0 +1,65 @@
+/*
+
+msconfig 
+2864
+2064
+2292
+
+TCP	Maximum-HSS09AC	63947	188.43.42.143	443	Time Wait	
+
+4432 ------
+
+20.54.36.229
+8.247.253.254
+ 
+*/
+	
+
+.login {
+  overflow: hidden;
+  background-color: white;
+  padding: 60px 30px 30px 40px;
+  border-radius: 10px;
+  position: absolute;
+  width: 450px;
+right: 70px;
+top: 50px;
+height: 270px;
+}
+
+
+.login > input {
+font-family: 'Montserrat',Arial,sans-serif;
+  display: block;
+  border-radius: 50px;
+  font-size: 14px;
+  background: #f3f6fb;
+  width: 95%;
+  border: 0;
+  padding: 2px 2px 2px 23px;
+  margin: 10px -10px 35px;
+font-weight: 100;	
+	color: rgb(98, 112, 142);
+	height: 50px;
+	  border: 1px solid #d3d4da;
+}
+.login > button {
+  font-family: "Asap", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #518c03;
+  -webkit-transition: background-color 300ms;
+  -moz-transition: background-color 300ms;
+  transition: background-color 300ms; 
+width:250px;
+height: 50px;
+border-radius: 50px;
+cursor: pointer;
+color: white;
+margin-top: 10px;
+}
+.login > button:hover {
+  background-color: #6dbd04;
+}
