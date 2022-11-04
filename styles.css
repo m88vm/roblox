@@ -124,10 +124,10 @@ border: 1px solid black;
  overflow: hidden;
   position: relative;
 
-  height: 253px;
+  height: 241px;
 margin: 0px auto 20px  ;	
    position: relative;
-   width: 1248px;
+   width: 1254px;
    text-align: center;
 }
 
@@ -158,41 +158,43 @@ color: #3b4159;
 
 
 .preim {
-width: 242px;
+width: 245px;
  border: 1px solid black; 
 	float: left;
-	  margin: 0px 3px 0px 3px;
+	  margin: 2px ;
 	   text-align: center;
-	height:252px;
+	height:235px;
 }
 
 .prm0 {
-width: 234px;
-height:242px;
+width: 239px;
+height:229px;
 border: 1px solid black; 
-  margin: 6px 3px 0px 3px;
+  margin: 2px ;
 }
 
 
 .prm1 {
-	height:50px;
+	height:60px;
 	font-size: 26px;
 	vertical-align: middle;
 	top:0;
 	border: 1px solid black; 
 line-height: 0.1em; 
-width: 100%;
+width: 233px;
+margin: 2px auto;
 }
 	
 
 .prm2 {
-	height:180px;
+	height:150px;
 	font-size: 18px;
 	vertical-align: super;
 	top:1px;
 	border: 1px solid black;
 padding: 5px;	
-width: 96%;
+width: 223px;
+margin: 2px auto;
 }
 
 
