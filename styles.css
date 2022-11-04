@@ -19,21 +19,48 @@ height: 800px;
 
 .centr {
 	
-width: 350px; 
+width: 700px; 
 height: 130px;
 top:0;	
- border: 1px solid black;
+
    position: relative;
 }	
 
 
 .centr1 {
 	
-width: 40%; 
+width: 140px; 
 height: 100%;
-	
- border: 1px solid black;
+	padding-left: 20px;
+
    position: relative;
+   float: left;
+   display: inline-block
+}	
+
+.centr1 img {
+padding-top: 17px;
+width: 130px; 	
+height: 63px;
+right: 5px;		
+}	
+
+
+.centr2 {
+width: 400px;
+height: 120px;
+padding-left: 0px;
+  position: relative;
+padding-top: 7px;
+	 display: inline-block;
+}	
+
+.centr2 h1 {
+	padding-left: 0px;
+	line-height: 0.3em; 
+font-size: 23px;	
+	font-family: 'Bahnschrift SemiBold',Arial; 
+	color: #354f7b;
 }	
 
 .lef11{
