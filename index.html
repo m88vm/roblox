@@ -321,12 +321,42 @@
 <p>Оставьте заявку в день обращения и мы дадим скидку 15% !</p>
 </div>
 <div class="vst2"> 
-<form class="login"  action="send.php" method="post" >
-  <input type="text" placeholder=" Имя"  name="fio" required>
-  <input type="text"  placeholder="Телефон" name="email" required>
-	<div class="g-recaptcha" data-sitekey="ключ сайта"></div>
-  <button>Записаться на курс</button>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form class="login"  onsubmit="return false" action="" method="post" id="askform">
+  <input type="text"  placeholder=" Имя" name="name"  required>
+<input  type="text" placeholder=" Телефон" name="email" pattern="^[0-9]{10,14}"  required>
+  <div class="g-recaptcha" data-sitekey="ключ сайта"></div>
+  <button type="submit">Записаться на курс</button>
 </form>
+
+<script>
+    $(document).ready(function(){
+        $("#askform").submit(function() {
+            var form_data = $(this).serialize();
+            $.ajax({
+			dataType: "html",
+                type: "POST", 
+                url: "send.php",
+                data: form_data,
+                success: function () {
+                    alert('В ближайшее время мы с вами свяжемся');
+                },
+                error: function () {
+                    alert('возникла ошибка');
+                }
+            });
+        return false;
+        });
+    });
+</script>
+
+	
+	
+	
+	
+	
 </div> 
 </div>
 </div>
