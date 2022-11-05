@@ -1,4 +1,24 @@
 <?php
+
+
+$to = "mail@yandex.ru"; // Тут указываем свою почту
+$subject = "e-mail тест"; // Тема письма
+// Сообщение
+$message = "Это тестовое сообщение.\n
+Если ты можешь его прочитать, значит все ОК?\n
+Конец сообщения.";
+// Перенос строк
+$message = wordwrap($message, 70);
+// возратит TRUE, если письмо успешно передано
+// почтовой программе например exim
+if (mail($to, $subject, $message)) {
+	echo("Почта была отправлена … вроде бы");
+} else { 
+	echo("Увы, но почта не отправлена!");
+}
+
+
+
 if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['email'])&&$_POST['email']!="")
     &&(isset($_POST['question'])&&$_POST['question']!="")){
         $to = 'testmail@gmail.com';
