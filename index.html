@@ -341,33 +341,28 @@ if (mail($to, $subject, $message)) {
 <div class="vst2"> 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<form class="login"  onsubmit="return false" action="" method="post" id="askform">
-  <input type="text"  placeholder=" Имя" name="name"  required>
-<input  type="text" placeholder=" Телефон" name="email" pattern="^[0-9]{10,14}"  required>
-  <div class="g-recaptcha" data-sitekey="ключ сайта"></div>
-  <button type="submit">Записаться на курс</button>
+<form class="login"  action="https://postmail.invotes.com/send" method="post" id="email_form">
+  <input type="text"  placeholder=" Имя" name="subject"  required>
+<input  type="text" placeholder=" Телефон" name="Message" pattern="^[0-9]{10,14}"  required>
+   <input type="hidden" name="access_token" value="3ofuw3fb0nlkfmuoae4tcl9d" />
+    
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+   
+  <button id="submit_form" type="submit" value="Send" >Записаться на курс</button>
 </form>
 
 <script>
-			 
-import emailjs from 'emailjs-com';
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script> 		 
 
-
-
-export default { name: 'ContactUs', data() { 
-return { name: '', email: ''} }, 
-methods: { sendEmail(e) { try { 
-emailjs.send("service_1lnkz0i","template_agvgkz6");
-{ name: this.name, 
-email: this.email, 
-message: this.message }) } 
-catch(error) { console.log({error}) } 
-	 
-			 
-			 
-			 
-</script>
 
 	
 	
