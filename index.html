@@ -2,7 +2,11 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8" />
-<title>Академия</title>
+<title>
+Московская
+Негосударственная
+Академия
+</title>
 <link rel="stylesheet" href="2.css">
 <link rel="stylesheet" href="styles.css">
 
@@ -342,10 +346,13 @@ if (mail($to, $subject, $message)) {
 
 
 <form class="login"  action="https://postmail.invotes.com/send" method="post" id="email_form">
-  <input type="text"  placeholder=" Имя" name="subject"  required>
-<input  type="text" placeholder=" Телефон" name="Message" pattern="^[0-9]{10,14}"  required>
+	
+<input type="text"  placeholder=" Имя" name="subject"  required>
+	
+	<textarea name="text" placeholder=" Телефон" placeholder="Message"></textarea>
+
+	
    <input type="hidden" name="access_token" value="3ofuw3fb0nlkfmuoae4tcl9d" />
-    
     <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
     <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
    
