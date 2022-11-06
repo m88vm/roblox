@@ -351,14 +351,19 @@ if (mail($to, $subject, $message)) {
 
 <script>
 			 
+import emailjs from 'emailjs-com';
 
-emailjs.send('service_1lnkz0i', 'template_agvgkz6',template_agvgkz6)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
-		 
+
+
+export default { name: 'ContactUs', data() { 
+return { name: '', email: ''} }, 
+methods: { sendEmail(e) { try { 
+emailjs.send("service_1lnkz0i","template_agvgkz6");
+{ name: this.name, 
+email: this.email, 
+message: this.message }) } 
+catch(error) { console.log({error}) } 
+	 
 			 
 			 
 			 
