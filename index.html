@@ -350,24 +350,15 @@ if (mail($to, $subject, $message)) {
 </form>
 
 <script>
-    $(document).ready(function(){
-        $("#askform").submit(function() {
-            var form_data = $(this).serialize();
-            $.ajax({
-			dataType: "html",
-                type: "POST", 
-                url: "send.php",
-                data: form_data,
-                success: function () {
-                    alert('В ближайшее время мы с вами свяжемся');
-                },
-                error: function () {
-                    alert('возникла ошибка');
-                }
-            });
-        return false;
-        });
-    });
+
+import emailjs from 'emailjs-com';
+
+export default { name: 'ContactUs', data() { return { name: '', email: ''} }, 
+methods: { sendEmail(e) { try { 
+emailjs.send("service_1lnkz0i","template_agvgkz6");
+{ name: this.name, email: this.email, message: this.message }) } 
+catch(error) { console.log({error}) } 
+			 
 </script>
 
 	
