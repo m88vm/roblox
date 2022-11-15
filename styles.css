@@ -120,7 +120,7 @@ right: 5px;
 }	
 
 .prm {
-border: 1px solid black; 
+
  /*overflow: hidden; */
   position: relative;
 
@@ -201,7 +201,17 @@ margin: 2px auto;
 
 
 
+.prms {
+border: 1px solid black; 
+ /*overflow: hidden; */
+  position: relative;
 
+  height: 241px;
+margin: 0px auto   ;	
+   position: relative;
+   width: 98%;
+   text-align: center;
+}
 
 
 .preims {
