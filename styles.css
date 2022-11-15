@@ -202,8 +202,10 @@ margin: 2px auto;
 
 
 
+
+
 .preims {
-width: 245px;
+width: 19.5%;
  border: 1px solid black; 
 	float: left;
 	  margin: 2px ;
@@ -213,7 +215,7 @@ width: 245px;
 }
 
 .prm0s {
-width: 239px;
+width: 97.5%;
 height:229px;
 border: 1px solid black; 
   margin: 2px ;
@@ -227,7 +229,7 @@ border: 1px solid black;
 	top:0;
 	border: 1px solid black; 
 line-height: 0.1em; 
-width: 233px;
+width:  97%;
 margin: 2px auto;
 }
 	
@@ -239,9 +241,10 @@ margin: 2px auto;
 	top:1px;
 	border: 1px solid black;
 padding: 5px;	
-width: 223px;
+width: 92.5%;
 margin: 2px auto;
 }
+
 
 
 
