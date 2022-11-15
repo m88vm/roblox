@@ -121,7 +121,7 @@ right: 5px;
 
 .prm {
 border: 1px solid black; 
- overflow: hidden;
+ /*overflow: hidden; */
   position: relative;
 
   height: 241px;
