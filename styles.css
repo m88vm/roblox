@@ -209,13 +209,13 @@ border: 1px solid black;
   height: 100%;
 margin: 0px auto   ;	
    position: relative;
-   width: 100%;
+   width: 95%;
    text-align: center;
 }
 
 
 .preims {
-max-width: 19.6%;
+max-width: 19.5%;
  border: 1px solid black; 
 	float: left;
 	  margin: 2px ;
