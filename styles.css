@@ -127,7 +127,7 @@ right: 5px;
   height: 241px;
 margin: 0px auto 20px  ;	
    position: relative;
-   width: 1253px;
+   width: 1255px;
    text-align: center;
 }
 
@@ -209,13 +209,13 @@ border: 1px solid black;
   height: 100%;
 margin: 0px auto   ;	
    position: relative;
-   width: 95%;
+   width: 100%;
    text-align: center;
 }
 
 
 .preims {
-max-width: 19.5%;
+max-width: 19.6%;
  border: 1px solid black; 
 	float: left;
 	  margin: 2px ;
