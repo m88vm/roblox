@@ -206,10 +206,10 @@ border: 1px solid black;
  /*overflow: hidden; */
   position: relative;
 
-  height: 241px;
+  height: 100%;
 margin: 0px auto   ;	
    position: relative;
-   width: 98%;
+   width: 97%;
    text-align: center;
 }
 
