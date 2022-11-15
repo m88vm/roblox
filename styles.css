@@ -199,6 +199,63 @@ margin: 2px auto;
 
 
 
+
+
+
+.preims {
+width: 245px;
+ border: 1px solid black; 
+	float: left;
+	  margin: 2px ;
+	   text-align: center;
+	height:235px;
+	
+}
+
+.prm0s {
+width: 239px;
+height:229px;
+border: 1px solid black; 
+  margin: 2px ;
+}
+
+
+.prm1s {
+	height:60px;
+	font-size: 26px;
+	vertical-align: middle;
+	top:0;
+	border: 1px solid black; 
+line-height: 0.1em; 
+width: 233px;
+margin: 2px auto;
+}
+	
+
+.prm2s {
+	height:150px;
+	font-size: 18px;
+	vertical-align: super;
+	top:1px;
+	border: 1px solid black;
+padding: 5px;	
+width: 223px;
+margin: 2px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .skd {
 width: 100%;
 height: 200px;	
