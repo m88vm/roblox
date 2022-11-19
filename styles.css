@@ -269,7 +269,7 @@ margin: 2px ;
 
 
 .skd {
-width: 100%;
+min-width: 1300px;
 height: 200px;	
 background: #6f8cfa;
 color: white;
@@ -355,7 +355,7 @@ color: white;
 .prof1{
  top: -50px;
  height: 550px;
- width: 100%;
+ min-width: 1300px;
 background: #f3f6fb;
 	   display: block;
 	   position: relative;
@@ -442,7 +442,7 @@ margin: 0 auto;
 position: relative;	
 z-index: -1;
 
-  width: 100%;
+ min-width: 1300px;
   height: 350px;
 	  background: url(007.jpg) no-repeat ;
    background-size: 100%;	
@@ -541,10 +541,10 @@ width: 100%;
 
 
 .pgks {
- width: 100%;		
+ min-width: 1300px;		
  height: 950px;	
   background: #9ec2ff;
- 
+    position: relative;
 }	
 
 .pgks1  {
@@ -568,7 +568,7 @@ font-family: arial,sans-serif;
 }	
 
 .gg {
- width: 100%;		
+ min-width: 1300px;		
  height: 200px;	
    background: white ;
 
@@ -617,9 +617,9 @@ font-family: arial,sans-serif;
 .vst {
 
 height: 500px;
-width: 100%;
+min-width: 1300px;
 margin: 0 auto;
- background: url(1115.jpg) no-repeat ;
+background: url(1115.jpg) no-repeat ;
 
 background-position: center;
 }
@@ -671,7 +671,7 @@ margin: 70px 0 0 20px;
 .podv {		
 margin: 0 auto;
 height: 60px;
-width: 100%;
+min-width: 1300px;
 background: #151719;
  	position: absolute;
 }
@@ -684,6 +684,7 @@ width: 1300px;
 background: #151719;
 color: white;
  	position: relative;
+padding-left: 40px;
 }
 
 
@@ -706,3 +707,8 @@ color: white;
 }	
 
 }
+
+
+
+
+
