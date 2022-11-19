@@ -667,25 +667,27 @@ margin: 70px 0 0 20px;
 }
 
 
-
 .podv {		
-margin: 0 auto;
+
 height: 60px;
 min-width: 1300px;
 background: #151719;
- 	position: absolute;
+ width: 100%;
+ top: -50px;
+  	position: relative;
 }
 
 .podv0 {		
-margin: 23px auto 0px auto;
-line-height: 0.2em; 
+
 height: 20px;
-width: 1300px;
+width: 1000px;
 background: #151719;
 color: white;
- 	position: relative;
-padding-left: 40px;
+
+padding: 3px 40px;
 }
+
+
 
 
 
