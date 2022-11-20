@@ -1,7 +1,7 @@
-* {
-
-}
-
+body {
+margin: 0 0;
+display: normal;	
+}	
 .abc {
 min-width: 1300px;
 height: 100%;
