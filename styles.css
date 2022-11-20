@@ -3,9 +3,9 @@
 }
 
 .abc {
-width: 100%;
+min-width: 1300px;
 height: 100%;
-  position: absolute;
+overflow-x:hidden;
 }	
 
 .a1 {
