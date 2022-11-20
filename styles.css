@@ -1,3 +1,5 @@
+
+
 body {
 margin: 0 0;
 display: normal;	
@@ -19,7 +21,7 @@ height: 800px;
 
 .centr {
 	
-width: 700px; 
+width: 200px; 
 height: 130px;
 top:0;	
 left:10px;
@@ -46,7 +48,7 @@ position: relative;
 
 
 .centr2 {
-width: 400px;
+width: 100px;
 height: 120px;
 padding-left: 0px;
   position: relative;
@@ -253,20 +255,6 @@ padding: 5px;
 max-width: 94%;
 margin: 2px ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .skd {
 min-width: 1300px;
@@ -672,45 +660,109 @@ margin: 70px 0 0 20px;
 height: 60px;
 min-width: 1300px;
 background: #151719;
- width: 100%;
-
-  	position: relative;
+width: 100%;
+position: relative;
 }
 
 .podv0 {		
-
 height: 20px;
 width: 1000px;
 background: #151719;
 color: white;
-
 padding: 3px 40px;
 }
 
 
+@media(max-width:500px){
 
+.rig1 {
+width: 525px;
+height: 692px;
+top: 10px;
+ position: absolute;
+ right: 0px;
+  background: url(banner1.png) no-repeat ;
+  background-size: 100%;
+float: left;
+right: 5px;
 
+}
 
+.lef122 {
+	font-size: 0px;
+	width: 0px;
+	height:0px;
+	}
 
-@media(min-width:2300px){ 
+.lef121 {
+	font-size: 70px;
+	margin-left: 30PX;
+		width: 500px;
+	 top: 0px;
+	}
 
+.bottm {
+margin: 40px 50% 0px 0px;
+padding-left: 40px		
+}
+
+.centr {
+margin-top: 30px;
+margin-left: 30px;
+}
 
 .prm {
-   width: 1255px;	
-	  height: 256px;
+ /*overflow: hidden; */
+  position: relative;
+  height: 700px;
+margin: 20px auto  ;	
+   position: relative;
+   width: 1254px;
+   text-align: center;
 }
 
-.yrok2 {
-
-	top: -20px;
-   display: block;
-   position: relative;	
-	
+.preims {
+height: 328px;
+max-width: 400px;	
+ border: 3px solid black; 
+ margin: 4px;
 }	
 
+.prm0s {
+  height: 316px;
+  max-width: 385px;
+   border: 3px solid black; 
+   margin: 4px 3px;
+   
+   max-width: 97%;	
+}
+
+.prm1s {
+height: 110px;	
+margin: 3px 3px;	
+border: 2px solid black; 
+}
+
+.prm1s p {
+font-size: 40px;	
+line-height: 1em;	
 }
 
 
+.prm2s {
+	max-width: 95%;
+	  border: 2px solid black;
+	 height: 168px;
+	  margin: 3px 3px;
+	  font-size: 23px;
+	  padding: 10px 15px;
+}	
+.serid {
+width: 200px;	 
+ border: 0px solid black; 
+height: 300px;
+float:left;
 
-
+}	
+}
 
