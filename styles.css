@@ -657,7 +657,7 @@ margin: 70px 0 0 20px;
 
 .podv {		
 
-height: 60px;
+height: 80px;
 min-width: 1300px;
 background: #151719;
 width: 100%;
@@ -665,11 +665,12 @@ position: relative;
 }
 
 .podv0 {		
-height: 20px;
+height: 40px;
 width: 1000px;
 background: #151719;
 color: white;
 padding: 3px 40px;
+line-height: 1.58;
 }
 
 .fon {
