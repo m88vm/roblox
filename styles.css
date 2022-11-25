@@ -615,7 +615,7 @@ background-position: center;
 .vst0 {
 top: 0;
 width: 100%;
- opacity: 0.6 ;
+ opacity: 0.4 ;
  background: black;
 height: 100%;
 
@@ -657,7 +657,7 @@ margin: 70px 0 0 20px;
 
 .podv {		
 
-height: 80px;
+height: 60px;
 min-width: 1300px;
 background: #151719;
 width: 100%;
@@ -665,7 +665,7 @@ position: relative;
 }
 
 .podv0 {		
-height: 40px;
+height: 30px;
 width: 1000px;
 background: #151719;
 color: white;
