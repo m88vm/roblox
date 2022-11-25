@@ -672,6 +672,24 @@ color: white;
 padding: 3px 40px;
 }
 
+.fon {
+width: 100%;
+background:#9ec2ff;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:500px){
 
@@ -766,8 +784,4 @@ float:left;
 }	
 
 	
-.fon {
-width: 100%;
-background:#9ec2ff;
-}	
 
