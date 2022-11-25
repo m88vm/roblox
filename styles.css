@@ -763,7 +763,11 @@ width: 200px;
  border: 0px solid black; 
 height: 300px;
 float:left;
-
 }	
-}
+
+	
+.fon {
+width: 100%;
+background:#9ec2ff;
+}	
 
