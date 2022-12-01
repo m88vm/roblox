@@ -773,19 +773,18 @@ margin: 3px 3px 1px 3px;
 border: 2px solid black; 
 }
 
-.prm1s p {
-font-size: 40px;	
-line-height: 1em;	
-}
-
-
 .prm2s {
-	max-width: 93%;
-	  border: 2px solid black;
-	 height: 166px;
-  margin: 4px 3px 1px 3px;
-	  font-size: 23px;
-	  padding: 10px 15px;
+max-width: 93%;
+border: 2px solid black;
+height: 166px;
+margin: 4px 3px 1px 3px;
+font-size: 27px;
+padding: 10px 15px;
+}	
+
+.prm1s p {
+font-size: 51px;
+line-height: 0.1em;
 }	
 	
 .preim {
