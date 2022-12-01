@@ -483,7 +483,7 @@ z-index: 43;
 float: right;
 opacity: 100;
 	position: relative;
-left: 280px;
+left: 120px;
 top: 80px;
 	margin: 0 auto;
 	color: white;
@@ -491,7 +491,7 @@ font-size: 24px;
   line-height: 1.5em;
  }
 
-.yrok4{
+.yrok4 {
 background: black ;
 background-size: 100%;	
 opacity: 0.1;
@@ -566,7 +566,7 @@ font-family: arial,sans-serif;
 
 .gg {
  min-width: 1300px;		
- height: 160px;	
+ height: 190px;	
    background: white ;
 
 }	
@@ -574,7 +574,7 @@ font-family: arial,sans-serif;
 .gg1  {
  width: 1100px;		
  height: 100px;	
-margin: -10px auto 10px auto;
+margin: 0px auto 10px auto;
 position: relative;
 
 }
@@ -584,7 +584,7 @@ line-height: 0.1em;
 top: -40px;
 font-size: 60px;
 text-align: center;
- height: 3px;	
+ height: 15px;	
     position: relative; 
 }
 	
