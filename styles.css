@@ -159,43 +159,46 @@ color: #3b4159;
 
 
 .preim {
-width: 245px;
- border: 1px solid black; 
-	float: left;
-	  margin: 2px ;
-	   text-align: center;
-	height:235px;
+max-width: 19.5%;
+border: 1px solid black; 
+float: left;
+margin: 2px ;
+text-align: center;
+height:235px;
+	
 }
 
 .prm0 {
-width: 239px;
+max-width: 97.5%;
 height:229px;
 border: 1px solid black; 
-  margin: 2px ;
+  margin: 2px  ;
 }
 
 
 .prm1 {
-	height:60px;
-	font-size: 26px;
-	vertical-align: middle;
-	top:0;
-	border: 1px solid black; 
+
+height:60px;
+font-size: 25px;
+vertical-align: middle;
+top:0;
+border: 1px solid black; 
 line-height: 0.1em; 
-width: 233px;
-margin: 2px auto;
+max-width:  98%;
+margin: 2px ;
 }
 	
 
 .prm2 {
-	height:150px;
-	font-size: 18px;
-	vertical-align: super;
-	top:1px;
-	border: 1px solid black;
+	
+height:150px;
+font-size: 18px;
+vertical-align: super;
+top:1px;
+border: 1px solid black;
 padding: 5px;	
-width: 223px;
-margin: 2px auto;
+max-width: 94%;
+margin: 2px ;
 }
 
 
@@ -401,24 +404,21 @@ padding: 0px 50px 10px 50px;
 }	
 
 .pfimg {
-	
-	  height: 130px;
-	 
+height: 130px;
 }	
 
 .pfimg img{
-  height: 130px;
+height: 130px;
 width: 130px;
 }
 
 .pf {
-	  width: 33%;
-  height: 80%; 
-  
-   float: left;
-   text-align: center;
-   color: #2c3337; 
-   font-family: 'Montserrat',Arial, cursive;
+width: 33%;
+height: 80%; 
+float: left;
+text-align: center;
+color: #2c3337; 
+font-family: 'Montserrat',Arial, cursive;
 margin: 0 auto;
 }
 
@@ -787,11 +787,13 @@ line-height: 1em;
 	  font-size: 23px;
 	  padding: 10px 15px;
 }	
+	
+.preim {
+display: none;	
+}	
+	
 .serid {
-width: 200px;	 
- border: 0px solid black; 
-height: 300px;
-float:left;
+display: none;
 }	
 
 	
