@@ -807,7 +807,8 @@ height: 220px;
 height: 220px;	
 }	
 .skd3 {
-font-size: 17px;	
+font-size: 17px;
+	
 }
 .ggH2 {
 font-size: 70px;
@@ -848,6 +849,10 @@ background: url(008.jpg) no-repeat;
 background-size: 100%;
 }	
 
+.yrok3 {	
+height: 40%;	
+}	
+	
 .yrok4 {	
 height: 1050px;	
 }
