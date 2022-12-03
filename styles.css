@@ -255,7 +255,7 @@ margin: 2px ;
 }
 
 .skd {
-min-width: 1300px;
+max-width: 1300px;
 height: 200px;	
 background: #6f8cfa;
 color: white;
@@ -341,7 +341,7 @@ color: white;
 .prof1{
  top: -50px;
  height: 550px;
- min-width: 1300px;
+ max-width: 1300px;
 background: #f3f6fb;
 	   display: block;
 	   position: relative;
@@ -534,7 +534,7 @@ width: 100%;
 
 
 .pgks {
- min-width: 1300px;		
+ max-width: 1300px;		
  height: 950px;	
   background: #9ec2ff;
     position: relative;
@@ -561,7 +561,7 @@ font-family: arial,sans-serif;
 }	
 
 .gg {
- min-width: 1300px;		
+ max-width: 1300px;		
  height: 190px;	
    background: white ;
 
@@ -609,7 +609,7 @@ font-family: arial,sans-serif;
 .vst {
 
 height: 500px;
-min-width: 1300px;
+max-width: 1300px;
 margin: 0 auto;
 background: url(1115.jpg) no-repeat ;
 
