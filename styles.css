@@ -1,5 +1,4 @@
 
-
 :root {
   --rig: 525px;
   --widm: 1300px;
@@ -15,7 +14,7 @@ display: normal;
 
 
 .abc {
-max-width: var(--widm);
+min-width: var(--widm);
 height: 100%;
 overflow-x:hidden;
 }	
@@ -267,7 +266,7 @@ margin: 2px ;
 }
 
 .skd {
-max-width: var(--widm);
+min-width: var(--widm);
 height: 200px;	
 background: #6f8cfa;
 color: white;
@@ -365,7 +364,7 @@ color: white;
 .prof1{
  top: -50px;
  height: 550px;
- max-width: var(--widm);
+ min-width: var(--widm);
 background: #f3f6fb;
 	   display: block;
 	   position: relative;
@@ -449,7 +448,7 @@ margin: 0 auto;
 position: relative;	
 z-index: -1;
 
- max-width: var(--widm);
+ min-width: var(--widm);
   height: 350px;
 	  background: url(007.jpg) no-repeat ;
    background-size: 100%;	
@@ -560,7 +559,7 @@ width: 100%;
 
 
 .pgks {
- max-width: var(--widm);		
+ min-width: var(--widm);		
  height: 950px;	
   background: #9ec2ff;
     position: relative;
@@ -587,7 +586,7 @@ font-family: arial,sans-serif;
 }	
 
 .gg {
- max-width: var(--widm);		
+ min-width: var(--widm);		
  height: 190px;	
    background: white ;
 
@@ -635,7 +634,7 @@ font-family: arial,sans-serif;
 .vst {
 
 height: 500px;
-max-width: var(--widm);
+min-width: var(--widm);
 margin: 0 auto;
 background: url(1115.jpg) no-repeat ;
 
@@ -688,7 +687,7 @@ margin: 70px 0 0 20px;
 .podv {		
 
 height: 50px;
-max-width: var(--widm);
+min-width: var(--widm);
 background: #151719;
 width: 100%;
 position: relative;
@@ -722,6 +721,7 @@ background-position: center;
 
 
 
+
 @media(max-width:500px){
 	
 	
@@ -740,7 +740,7 @@ display: normal;
 
 
 .abc {
-max-width: 500;
+min-width: var(--widm);
 height: 100%;
 overflow-x:hidden;
 }	
@@ -1265,7 +1265,7 @@ margin: 10px auto 0 auto;
 .podv {		
 
 height: 50px;
-max-width: 500px;
+min-width: 500px;
 background: #151719;
 width: 100%;
 position: relative;
