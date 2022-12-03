@@ -2,7 +2,9 @@
 
 body {
 margin: 0 0;
-display: normal;	
+display: normal;
+overflow-x: hidden;
+width:100%; 
 }	
 .abc {
 min-width: 1300px;
@@ -203,10 +205,6 @@ margin: 2px ;
 
 
 .prms {
-
- /*overflow: hidden; */
-
-
   height: 100%;
 margin: 0px auto   ;	
    position: relative;
@@ -700,8 +698,17 @@ background-position: center;
 
 
 
-@media(max-width:500px){
-
+@media (min-width: 100px) and  (max-width:500px){
+	
+@-ms-viewport { 
+ width: device-width;
+}
+@-o-viewport { 
+ width: device-width;
+}
+@viewport { 
+ width: device-width;
+}
 	
 .rig1 {
 width: 525px;
@@ -875,7 +882,7 @@ font-size: 50px;
 font-size: 50px;	
 }	
 	
-	
+}	
 	
 	
 	
