@@ -501,7 +501,7 @@ z-index: 43;
 float: right;
 opacity: 100;
 	position: relative;
-left: 1px;
+left: 150px;
 top: 65px;
 	margin: 0 auto;
 	color: white;
@@ -528,7 +528,7 @@ background: black ;
 background-size: 100%;	
 opacity: 0.1;
 height:350px;
- max-width: 100%;
+width: 100%;
 z-index: 45;
 position: absolute;
 }
