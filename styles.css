@@ -1,19 +1,27 @@
 
 
+:root {
+  --rig: 525px;
+  --widm: 1300px;
+}
+
+
+
 body {
 margin: 0 0;
-display: normal;
-overflow-x: hidden;
-width:100%; 
+display: normal;	
+ 
 }	
+
+
 .abc {
-min-width: 1300px;
+min-width: var(--widm);
 height: 100%;
 overflow-x:hidden;
 }	
 
 .a1 {
-width: 1300px;
+width: var(--widm);
 height: 800px;	
 
  margin: 0 auto;
@@ -111,7 +119,7 @@ font-family: 'Montserrat',Arial, cursive;
 .rig1 {
 	top: 20px;
  position: absolute;
-width: 525px;
+width: var(--rig);
 height: 692px;
  
  right: 0px;
@@ -205,6 +213,10 @@ margin: 2px ;
 
 
 .prms {
+
+ /*overflow: hidden; */
+
+
   height: 100%;
 margin: 0px auto   ;	
    position: relative;
@@ -255,7 +267,7 @@ margin: 2px ;
 }
 
 .skd {
-max-width: 1300px;
+min-width: var(--widm);
 height: 200px;	
 background: #6f8cfa;
 color: white;
@@ -264,7 +276,7 @@ color: white;
 
 
 .skd0 {
-width: 1300px;
+width: var(--widm);
 height: 200px;	
 margin: 0 auto;
 
@@ -326,7 +338,19 @@ top:50px;
 top:54px;		
 }
 
-button {
+.bn1  {
+width:270px;
+height: 60px;
+display: inline-block;	
+background: #518c03; 
+border-radius: 50px;
+cursor: pointer;
+color: white;
+ font-size: 17px;
+}	
+
+
+.bn  {
 width:270px;
 height: 60px;
 display: inline-block;	
@@ -341,7 +365,7 @@ color: white;
 .prof1{
  top: -50px;
  height: 550px;
- max-width: 1300px;
+ min-width: var(--widm);
 background: #f3f6fb;
 	   display: block;
 	   position: relative;
@@ -425,7 +449,7 @@ margin: 0 auto;
 position: relative;	
 z-index: -1;
 
- min-width: 1300px;
+ min-width: var(--widm);
   height: 350px;
 	  background: url(007.jpg) no-repeat ;
    background-size: 100%;	
@@ -441,7 +465,7 @@ z-index: -1;
 }
 
 .yrok0 {
-  width: 1300px;
+  width: var(--widm);
   height: 100%;
   margin: 0 auto;	
 
@@ -472,29 +496,19 @@ padding-left: 30px;
 .yrok2 {
  filter:alpha(opacity=100);
    -moz-opacity: 100;
- width: 1280px;	
+ width: 1300px;	
 z-index: 43;
  height: 350px;
 float: right;
 opacity: 100;
 	position: relative;
-left: 120px;
+left: 1px;
 top: 65px;
 	margin: 0 auto;
 	color: white;
 font-size: 24px;
   line-height: 1.5em;
  }
-
-.yrok4 {
-background: black ;
-background-size: 100%;	
-opacity: 0.1;
-height:350px;
- min-width: 100%;
-z-index: 45;
-position: absolute;
-}
 
 .yrok2 ol {
 color: white;
@@ -506,9 +520,21 @@ font-size: 27px;
 .yrok2 p {
 color: white;
 font-size: 36px;
-padding-left: 30px;
+padding-left: 10px;
  line-height: 0.4em;
 }
+
+.yrok4 {
+background: black ;
+background-size: 100%;	
+opacity: 0.1;
+height:350px;
+ max-width: 100%;
+z-index: 45;
+position: absolute;
+}
+
+
 
 .yrok3 {
 margin-top: 7px;
@@ -534,7 +560,7 @@ width: 100%;
 
 
 .pgks {
- max-width: 1300px;		
+ min-width: var(--widm);		
  height: 950px;	
   background: #9ec2ff;
     position: relative;
@@ -561,7 +587,7 @@ font-family: arial,sans-serif;
 }	
 
 .gg {
- max-width: 1300px;		
+ min-width: var(--widm);		
  height: 190px;	
    background: white ;
 
@@ -609,7 +635,7 @@ font-family: arial,sans-serif;
 .vst {
 
 height: 500px;
-max-width: 1300px;
+min-width: var(--widm);
 margin: 0 auto;
 background: url(1115.jpg) no-repeat ;
 
@@ -630,7 +656,7 @@ height: 100%;
 .vst1 {		
 margin: 0 auto;
 height: 500px;
-width: 1300px;
+width: var(--widm);
 
 position: relative;
 }
@@ -662,7 +688,7 @@ margin: 70px 0 0 20px;
 .podv {		
 
 height: 50px;
-min-width: 1300px;
+min-width: var(--widm);
 background: #151719;
 width: 100%;
 position: relative;
@@ -683,6 +709,11 @@ background:#9ec2ff;
 height: 500px;
 background-position: center;
 }	
+
+
+
+
+
 
 
 
