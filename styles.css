@@ -338,7 +338,7 @@ top:50px;
 top:54px;		
 }
 
-.bn1  {
+.bn1  > button  {
 width:270px;
 height: 60px;
 display: inline-block;	
@@ -350,7 +350,7 @@ color: white;
 }	
 
 
-.bn  {
+.bn   > button {
 width:270px;
 height: 60px;
 display: inline-block;	
@@ -935,7 +935,7 @@ padding-left: 15px;
 
 
 
-.bn1 {
+.bn1  > button {
 width:160px;
 height: 40px;
 display: inline-block;	
@@ -1401,7 +1401,7 @@ border: 0px solid black;
 	top: -20px; 
 }	
 
-.bn {
+.bn  > button {
 width:228px;
 height: 50px;
 background: #518c03; 
@@ -1719,7 +1719,7 @@ margin: 2px ;
 padding-left: 15px;
 }	
 
-.bn1 {
+.bn1  > button {
 width:160px;
 height: 40px;
 display: inline-block;	
@@ -2195,7 +2195,7 @@ border: 0px solid black;
 	top: -10px; 
 }	
 
-.bn {
+.bn  > button {
 width:228px;
 height: 50px;
 background: #518c03; 
