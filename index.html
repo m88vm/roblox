@@ -386,19 +386,18 @@
 
 
 
-<form action="http://postmail.invotes.com/send" method="post" id="email_form">
-
-<input   name="subject" type="text" placeholder=" Имя"  required>
-<input  name="text" placeholder=" Телефон" type="number" required>
+<form action="https://postmail.invotes.com/send"   method="post" id="email_form" >
+	
+<input   name="subject" type="text"     placeholder=" Имя"      required>
+<input   name="text"    type="number"   placeholder=" Телефон"  required>
 
 	
-   <input type="hidden" name="access_token" value="3ofuw3fb0nlkfmuoae4tcl9d" />
-    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
-    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+<input type="hidden" name="access_token" value="3ofuw3fb0nlkfmuoae4tcl9d" />
+<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
    
   <button id="submit_form"  type="submit"  >Записаться на курс</button>
 </form>
-
 
 
 
@@ -411,7 +410,8 @@
             submitButton.disabled = true;
         }, 1);
     });
-</script> 		 
+</script> 
+		 
 
 
 	
