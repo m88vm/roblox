@@ -37,19 +37,7 @@ $black_list = array(
 );
  
 $ip = @ip2long($_SERVER['REMOTE_ADDR']);
-foreach($black_list as $ips) {
-	if ($ip >= @ip2long($ips[0]) && $ip <= @ip2long($ips[1])) {
-		exit;
-	}
-}
-
-$black_list = array(
-	array('192.168.0.0', '192.168.255.255'),  
-	array('172.16.0.0', '172.31.255.255'),  
-);
- 
-$ip = @ip2long($_SERVER['REMOTE_ADDR']);
-foreach($black_list as $ips) {
+foreach($black_list as $ip) {
 	if ($ip >= @ip2long($ips[0]) && $ip <= @ip2long($ips[1])) {
 		exit;
 	}
