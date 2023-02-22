@@ -293,9 +293,11 @@ min-width: var(--widm);
 height: 200px;	
 background: #6f8cfa;
 color: white;
-
 }	
 
+.skd p {
+top: -20px;	
+}	
 
 .skd0 {
 width: var(--widm);
